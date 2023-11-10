@@ -38,11 +38,27 @@ Refer to the project's README file for instructions on cloning the repository, i
 
 Contributions from the open-source community are welcome. Feel free to report issues, suggest new features, or submit pull requests to enhance and extend the Facebook Clone project.
 
-## License
+## Technologies
+<div >
 
-This project is licensed under the MIT License, allowing others to use and contribute to the codebase.
+<table>
 
-Explore and create a Facebook Clone with React, React Context API, Firebase, and Material UI. Learn how to develop a modern web application with a focus on user authentication, real-time updates, and a visually appealing user interface.
+<tr>
+
+<td><code><img width="50" src="https://user-images.githubusercontent.com/25181517/192108891-d86b6220-e232-423a-bf5f-90903e6887c3.png" alt="Visual Studio Code" title="Visual Studio Code"/></code></td>
+
+<td><code><img width="50" src="https://user-images.githubusercontent.com/25181517/189716855-2c69ca7a-5149-4647-936d-780610911353.png" alt="Firebase" title="Firebase"/></code></td>
+
+<td><code><img width="50" src="https://user-images.githubusercontent.com/25181517/189716630-fe6c084c-6c66-43af-aa49-64c8aea4a5c2.png" alt="Material UI" title="Material UI"/></code></td>
+
+<td><code><img width="50" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/02494c7c-de6a-43a6-9293-6369696842ed" alt="Canva" title="Canva"/></code></td>
+
+<td><code><img width="50" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png" alt="JavaScript" title="JavaScript"/></code></td>
+<td><code><img width="50" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="React" title="React"/></code></td>
+</tr>
+</table>
+
+</div>
 
 
 
