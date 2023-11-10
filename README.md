@@ -5,15 +5,15 @@ The Facebook Clone project on GitHub is a web application that aims to replicate
 
 ## Key Features
 
-1. **User Authentication**: Implement user registration, login, and logout functionality using Firebase Authentication. Users can create accounts, sign in securely, and maintain their authentication status.
+- 1. **User Authentication**: Implement user registration, login, and logout functionality using Firebase Authentication. Users can create accounts, sign in securely, and maintain their authentication status.
 
-2. **News Feed**: Users can post text and multimedia content on their personal news feeds, similar to Facebook's timeline. Posts are displayed in chronological order, and users can like, comment on, and share posts.
+- 2. **News Feed**: Users can post text and multimedia content on their personal news feeds, similar to Facebook's timeline. Posts are displayed in chronological order, and users can like, comment on, and share posts.
 
-3. **Friends and Connections**: Users can send and accept friend requests, allowing them to connect with other users on the platform. A user's list of friends and friend requests is maintained in the Firebase Firestore database.
+- 3. **Friends and Connections**: Users can send and accept friend requests, allowing them to connect with other users on the platform. A user's list of friends and friend requests is maintained in the Firebase Firestore database.
 
-4. **Real-time Updates**: Utilize Firebase Realtime Database or Firestore to provide real-time updates for new posts, comments, and friend requests, ensuring a dynamic and interactive user experience.
+- 4. **Real-time Updates**: Utilize Firebase Realtime Database or Firestore to provide real-time updates for new posts, comments, and friend requests, ensuring a dynamic and interactive user experience.
 
-5. **User Profiles**: Each user has a profile page displaying their profile picture, cover photo, basic information, and a list of their posts. Users can update their profile information and profile pictures.
+- 5. **User Profiles**: Each user has a profile page displaying their profile picture, cover photo, basic information, and a list of their posts. Users can update their profile information and profile pictures.
 
 6. **Notifications**: Implement notifications for actions such as receiving friend requests, likes, comments, and new posts.
 
