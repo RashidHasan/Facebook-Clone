@@ -2,20 +2,30 @@ import Feed from "./Feed";
 import Header from "./Header";
 import RightSidebar from "./RightSidebar";
 import Sidebar from "./Sidebar";
+import LogIn from "./Login";
+import { useStateValue } from "./StateProvider";
+import reducer from "./reducer";
 
 function App() {
+  const [{ user }, dispatch] = useStateValue();
+
+  console.log(user);
   return (
     <>
-      <div className="App">
-        <Header />
+      {!user ? (
+        <LogIn />
+      ) : (
+        <div className="App">
+          <Header />
 
-        <div className="app__body">
-          <Sidebar />
-          <Feed />
+          <div className="app__body">
+            <Sidebar />
+            <Feed />
 
-          <RightSidebar />
+            <RightSidebar />
+          </div>
         </div>
-      </div>
+      )}
     </>
   );
 }

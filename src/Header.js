@@ -11,7 +11,9 @@ import ForumIcon from "@mui/icons-material/Forum";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import image from "./CSS/Images/RH Logo - Copy.png";
+import { useStateValue } from "./StateProvider";
 function Header() {
+  const [{ user }, dispatch] = useStateValue();
   return (
     <div className="header">
       <div className="header__left">
@@ -41,9 +43,9 @@ function Header() {
 
       <div className="header__right">
         <div className="header__info">
-          <Avatar src={image} />
+          <Avatar src={user.photoURL} />
 
-          <h5>Rashid Hasan</h5>
+          <h5>{user.displayName}</h5>
         </div>
 
         <IconButton>

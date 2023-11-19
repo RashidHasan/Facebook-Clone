@@ -9,7 +9,7 @@ import "./CSS/messagesender.css";
 import pict from "./CSS/Images/RH Logo - Copy.png";
 
 function MessageSender() {
-  const [open, SetOpen] = useState(true);
+  const [open, SetOpen] = useState(false);
   const handleClose = () => {
     SetOpen(false);
   };

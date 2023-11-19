@@ -11,11 +11,13 @@ import icon7 from "./CSS/Images/fbIcon7.png";
 import icon8 from "./CSS/Images/fbIcon8.png";
 import Pic from "./CSS/Images//RH Logo - Copy.png";
 import "./CSS/Sidebar.css";
+import { useStateValue } from "./StateProvider";
 
 function Sidebar() {
+  const [{ user }, dispatch] = useStateValue();
   return (
     <div className="sidebar">
-      <Sidebaroptions src={Pic} title="Rashid Hasan" />
+      <Sidebaroptions src={user.photoURL} title={user.displayName} />
       <Sidebaroptions src={icon8} title="Friends" />
       <Sidebaroptions src={icon5} title="Memories" />
       <Sidebaroptions src={icon3} title="Saved Items" />
