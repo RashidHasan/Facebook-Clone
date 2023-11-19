@@ -5,6 +5,9 @@
 This project is a Facebook clone built using React, React Context API, Firebase, and Material UI. The aim is to replicate the core features and functionality of the popular social media platform, Facebook, providing a learning resource for developers interested in modern web application development.
 
 ![Screenshot (1166)](https://github.com/RashidHasan/Facebook-Clone/assets/136935583/3833c34b-2d3f-4510-ac90-eea206feb466)
+![Screenshot (1167)](https://github.com/RashidHasan/Facebook-Clone/assets/136935583/0d8d083a-86a2-49cc-a8b6-6069460ad8a0)
+
+
 
 
 ## Features
